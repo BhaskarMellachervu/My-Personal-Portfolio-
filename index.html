@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio </title>
+    <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/f9b7eb5327.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+    <nav>
+          <div class="navbar">
+              <img src='pictureswindow black logo.png' class="logo">
+              <div class="nav-links" id="navlinks">
+                <i class="far fa-times-circle" onclick="hidemenu()"></i>
+                  <ul>
+                      <li><a href="">ABOUT ME</a></li>
+                      <li><a href="">MY HOBBIES</a></li>
+                      <li><a href="">CONTACT ME</a></li>
+                  </ul>
+              </div>
+            </div>
+         <i class="fas fa-bars"onclick="showmenu()"></i> 
+    </nav>  
+    <div class="textbox">
+        <h1>Hello!! I am </h1> <img src="SivaMellachervu white logo.png" width="400px"> 
+        <p>I am a first year CSE Engineering student at VIT-Amaravati. I am a passionate Graphic designer and Photshop Artist </p>
+    </div> 
+    </section>  
+    <!--course-->
+    <section class="aboutme">
+        <h1>About Me</h1>
+        <p>Hi!! guys. Thanks for reaching out here.<br>My name is M B Siva Rama Sarma. I am 18 years old. I would like to give you a breif description about my qualifications. </p>
+        <div class="row">
+            <div class="studies">
+                <h3>School</h3>
+                <p>I have studied at St.john's E.M High School,Vja. I have passed with a total of 90%.</p>
+            </div>
+            <div class="studies">
+                <h3>Intermediate</h3>
+                <p>I have completed my Intermediate at Sri Sarada Jr. College,Vja. I have completed my intermediate with 80%. </p>
+            </div>
+            <div class="studies">
+                <h3>Graduatiion</h3>
+                <p>I have joined VIT-Amaravati for my graduation,in the course of CSE with a specalization in Artificial Intelligence and Machine Learning.
+                    I have hyave enrolled my self in the VIT-CSI Chapter and learning many new skills. </p>
+            </div>
+        </div>
+    </section>
+
+<!--------------------My Hobbies-------------------->
+
+    <section class="hobbies">
+        <h1>My Hobbies</h1>
+        <p> As I mentioned above, I do play with Photoshop, Illustrtor.<br> I do watch a lot of movies, and read a lot of books from the generes of Fantasy, Fiction, Communicative skills and Personality devolopment.     </p>
+        <h2>My Artworks</h2>
+        <div class="row">
+            <div class="gallery">
+                <img src='deer-glow-effect-2.jpg'>
+                <div class="layer">
+                    <h3>The Crystal Deer</h3>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src='Carpe Diem.jpg'>
+                <div class="layer">
+                    <h3>Carpe Diem</h3>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src='Iron-man-art.jpg'>
+                <div class="layer">
+                    <h3>Ironman digitalart</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!----------------contact------------------->
+
+    <section class="contact">
+        <div class="wrapper">
+            <h1>Contact Me</h1>
+                <p> Hey Guys!! you can connect with me on my social media </p>
+                    <div class="media">
+                    <ul>
+                        <li><a href ='https://www.instagram.com/siva_mellachervu'>
+                <i class="fab fa-instagram"></i></a></li>
+                        <li><a href ='https://www.twitter.com/sivamellacherv1'>
+                <i class="fab fa-twitter"></i></a></li>
+                        <li><a href ='https://www.github.com/Bhaskarmellachervu'>
+                <i class="fab fa-github"></i></a></li>
+            </ul>
+            </div>
+            
+        </div>
+    </section>
+    
+   <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right="0";
+        }
+        function hidemenu(){
+            navlinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!--section class="cta"> 
+        <div class=".container"> 
+            <h1>CONTACT ME</h1>
+             <P> To know more  about me or my artworks please feel free to get in touch with me </p>
+                <div class="contact-box">
+                    <div class="contact-left">
+                        <h3>Send your message</h3>
+                        <form>
+                            <div class="input-row">
+                                <div class="input-group">
+                                    <label>Name</label>
+                                    <input type="text" placeholder="Kattappa">
+                                </div>
+                                <div class="input-group">
+                                    <label>Phone</label>
+                                    <input type="text" placeholder="+91 12345 67890">
+                                </div>
+                            </div><div class="input-row">
+                                <div class="input-group">
+                                    <label>Email</label>
+                                    <input type="text" placeholder="Kattappa1540@gmail.com">
+                                </div>
+                                <div class="input-group">
+                                    <label>Subject</label>
+                                    <input type="text" placeholder="topic">
+                                </div>
+                            
+                            </div>
+                            
+                                <lable>Message</lable>
+                                <textarea rows="5"></textarea>
+                            
+                        </form>
+                    </div>
+                    <div class="contact-right">
+                        <h3>Reach me</h3>
+                    </div>
+                </div>
+       </div>
+       </div>
+ </section>
+       <!-- <a href="" class="hero-btn">MAIL ME</a>-->
+   
+    <!---------------java script for toggle menu------------->
+   
